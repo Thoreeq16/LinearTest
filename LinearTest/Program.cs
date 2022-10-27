@@ -34,7 +34,7 @@ namespace LinearTest
             Console.WriteLine("---------------------");
             for (i = 0; i < n; i++)
             {
-                Console.WriteLine('<' + (i + 1) + ">";
+                Console.WriteLine('<' + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
             }
@@ -45,7 +45,7 @@ namespace LinearTest
             do
             {
                 //accept the number to be searched
-                Console.Write("\mEnter the element you want to search :");
+                Console.Write("\nEnter the element you want to search :");
                 int item = Convert.ToInt32(Console.ReadLine());
 
                 //apply binary swatch
